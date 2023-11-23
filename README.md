@@ -10,11 +10,7 @@ Projeto de criação de um site para leitura e downloads de livros de maneira in
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-<p align="center">
-  <img alt="License" src="https://github.com/leoaranha98/ProjetoProzTalent/blob/main/.github/PaginaInicial.jpg">
-</p>
-
-<br>
+<br/>
 
 <p align="center">
   <img alt="Projeto BookFlix" src=".github/PaginaInicial.jpg" width="100%">
