@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Links do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <!-- Link do nosso arquivo CSS -->
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <header>
+      <img src="./img/Group 2 1LOGO.svg" alt="BookFlix">
+      <nav>
+        <ul>
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Categorias</a>
+          </li>
+          <li>
+            <a href="">Minha Estante</a>
+          </li>
+          <li>
+            <a href="">Fale Conosco</a>
+          </li>
+          <li>
+            <a href="">Quem Somos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        
+      <form>
+        <section>
+        <h1>Cadastro</h1>
+        <!-- O atributo name faz um laço entre o [label] e seu respectivo [input] não permitindo que seja selecionddo duas opções ao mesmo tempo -->
+        <!-- O atributo [id] faz com que o navegador reconhça o respectivo label deixando o mesmo clicável -->
+        
+        <label for="nome">Nome</label>
+        <input class="input_1" type="text" id="nome">
+        
+        <label for="tel">Telefone</label>
+        <input class="input_1" type="tel" name="tel" id="tel">
+        </section>
+        <section>
+            <p>Nacionalidade</p>
+            <!-- O atributo [value] sobe para o navegador a opção escolhida -->
+            <input type="radio" name="nacionalidade" id="brasil" value="brasil">
+            <label for="brasil">Brasileiro(a)</label>
+            <input type="radio" name="nacionalidade" id="outro" value="brasil">
+            <label for="outro">Estrangeiro(a)</label>
+        </section>
+        <section>
+            <p>Para qual finalidade você irá usar o BookFlix?</p>
+            <input type="checkbox" name="finalidade" id="Pessoal" value="Pessoal">
+            <label for="Pessoal">Pessoal</label>
+            <input type="checkbox" name="finalidade" id="Estudo" value="Estudo">
+            <label for="Estudo">Estudante</label>
+            <input type="checkbox" name="finalidade" id="profissional" value="profissional">
+            <label for="profissional">Profissional</label>
+        </section>
+        <section>
+            <br>
+            <label for="email">Email</label>
+            <input class="input_1" type="email" name="email" id="email">
+            <label for="password">Senha</label>
+            <input class="input_1" type="password" name="password" id="">
+            <button type="submit">Enviar</button>
+        </section>
+    </form>
+    </main>
+</body>
+</html> -->
