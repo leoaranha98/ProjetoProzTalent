@@ -15,7 +15,7 @@
 
 <body>
     <header>
-      <img src="./img/Group 2 1LOGO.svg" alt="BookFlix">
+      <img src="./img/Group 2 1LOGO.png" alt="BookFlix">
       <nav>
         <ul>
           <li>
@@ -33,6 +33,14 @@
           <li>
             <a href="">Quem Somos</a>
           </li>
+          <!-- <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li> -->
         </ul>
       </nav>
     </header>
@@ -40,7 +48,7 @@
     <main>
         
       <form>
-        <section>
+        <section class="sec1">
         <h1>Cadastro</h1>
         <!-- O atributo name faz um laço entre o [label] e seu respectivo [input] não permitindo que seja selecionddo duas opções ao mesmo tempo -->
         <!-- O atributo [id] faz com que o navegador reconhça o respectivo label deixando o mesmo clicável -->
@@ -51,8 +59,8 @@
         <label for="tel">Telefone</label>
         <input class="input_1" type="tel" name="tel" id="tel">
         </section>
-        <section class="sec1">
-            <p class="p1">Nacionalidade</p>
+        <section class="sec2">
+            <h4 class="p1">Nacionalidade</h4>
             <!-- O atributo [value] sobe para o navegador a opção escolhida -->
             <input type="radio" name="nacionalidade" id="brasil" value="brasil">
             <label for="brasil">Brasileiro(a)</label>
@@ -60,7 +68,7 @@
             <label for="outro">Estrangeiro(a)</label>
         </section>
         <section>
-            <p class="p2">Para qual finalidade você irá usar o BookFlix?</p>
+            <h4 class="p2">Para qual finalidade você irá usar o BookFlix?</h4>
             <input type="checkbox" name="finalidade" id="Pessoal" value="Pessoal">
             <label for="Pessoal">Pessoal</label>
             <input type="checkbox" name="finalidade" id="Estudo" value="Estudo">
@@ -68,15 +76,15 @@
             <input type="checkbox" name="finalidade" id="profissional" value="profissional">
             <label for="profissional">Profissional</label>
         </section>
-        <section>
+        <section class="sec4">
             <br>
             <label for="email">Email</label>
             <input class="input_1" type="email" name="email" id="email">
             <label for="password">Senha</label>
             <input class="input_1" type="password" name="password" id="">
-            <button type="submit">Enviar</button>
+            <button class="btn1" style="vertical-align:middle"><span>Enviar</span></button>
         </section>
     </form>
     </main>
 </body>
-</html> -->
+</html>
