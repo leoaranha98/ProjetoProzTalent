@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
     <!-- Link do nosso arquivo CSS -->
     <link rel="stylesheet" href="cadastro.css">
+    <script src="cadastro.js" defer></script>
     <title>Cadastro</title>
 </head>
 
@@ -56,19 +57,19 @@
       </nav>
     </header>
     
-    <main>
-        
+    <main> 
       <form>
         <section class="sec1">
         <h1>Cadastro</h1>
         <!-- O atributo name faz um laço entre o [label] e seu respectivo [input] não permitindo que seja selecionddo duas opções ao mesmo tempo -->
         <!-- O atributo [id] faz com que o navegador reconhça o respectivo label deixando o mesmo clicável -->
         
-        <label for="nome">Nome</label>
+        <label for="nome">Nome Completo:</label>
         <input class="input_1" type="text" id="nome">
-        
-        <label for="tel">Telefone</label>
+        <label for="tel">Telefone:</label>
         <input class="input_1" type="tel" name="tel" id="tel">
+        <label for="date">Data de Nascimento:</label>
+        <input class="input_1" type="date" name="date" id="date">
         </section>
         <section class="sec2">
             <h4 class="p1">Nacionalidade</h4>
@@ -89,11 +90,15 @@
         </section>
         <section class="sec4">
             <br>
-            <label for="email">Email</label>
+            <label for="email">Email:</label>
             <input class="input_1" type="email" name="email" id="email">
-            <label for="password">Senha</label>
-            <input class="input_1" type="password" name="password" id="">
-            <button class="btn1" style="vertical-align:middle"><span>Enviar</span></button>
+            <label for="password">Senha:</label>
+            <input class="input_1" type="password" name="password" id="password">
+            <p>Já possui cadastro?</p>
+            <!-- <button class="btn1" style="vertical-align:middle"><span>Cadastrar</span></button> -->
+        </section>
+        <section class="sec5">
+        <button class="btn1" style="vertical-align:middle"><span>Cadastrar</span></button>
         </section>
     </form>
     </main>
